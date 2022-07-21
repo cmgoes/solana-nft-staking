@@ -50,7 +50,7 @@ interface PoolState {
     config: anchor.web3.PublicKey;
     rewardMint: anchor.web3.PublicKey;
     rewardVault: anchor.web3.PublicKey;
-    // rewardRatePerToken: u128  // how to conver it to number
+    // rewardRatePerToken: u128  
     lastUpdateTime: number,
     rewardDuration: number,
     rewardDurationEnd: number,
